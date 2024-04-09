@@ -5,41 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="html, Курс, Баскетбол" />
     <meta name="description" content="Это резюме Виктора Химина" />
+    <link rel="stylesheet" href="resume.css">
     <title>Моё резюме</title>
   </head>
   <body>
+    <div class="container">
+      
     <img src="я.png" width="150" alt="фото моего лица" />
+  
 
     <h1>Виктор Химин</h1>
 
+<div class="text">
+  <div class="text-info">
     <p>
-      Это <strong>сайт</strong>-резюме будущего разработчика
+      Это <strong>сайт-резюме</strong> будущего разработчика
       <strong>Виктора Химина</strong>
     </p>
 
     <p>Я люблю <em>слушать музыку играть в баскетбол и играть в игры</em></p>
-
+  
+  </div>
+  <div class="spisok">
     <h4><strong>Список социальных сетей:</strong></h4>
-    <a href="https://www.instagram.com/khiminn27/" target="_blank"
+  </div>
+  
+    <a href="https://www.instagram.com/khiminn27/"  target="_blank"
       ><em>Instagram</em></a
     >
-    | <a href="https://vk.com/id399978160" target="_blank"><em>VK</em></a> |
+    | <a href="https://vk.com/id399978160" 
+     target="_blank"><em>VK</em></a> |
     <a
       href="https://www.youtube.com/channel/UCZ8yXgnXa83bDlaPaW0mVfQ"
+      
+      
       target="_blank"
       ><em>YouTube</em></a
     >
-
+ 
+   <div class="card">
+<div class="card bg-yellow">
     <h2>Мои хобби</h2>
-    <ol>
+    <ol class="list">
       <li>Баскетбол</li>
       <li>Компьютерные игры</li>
       <li>Путешествия</li>
       <li>Музыка</li>
     </ol>
-
+</div>
+<div class="card bg-pink">
     <h2>Опыт работы</h2>
-    <table width="500">
+    <table width="500" class="table2">
       <thead>
         <tr>
           <th>Название</th>
@@ -61,10 +77,14 @@
         <tr>
           <td>Строительная компания Хуй знает какая</td>
           <td>Уборщик</td>
-          <td>2011-2022</td>
+          <td>2021-2022</td>
         </tr>
       </tbody>
     </table>
+  </div>
+</div>
+  
+  </div>
 
     <h2> Связаться со мной</h2>
     <form>
@@ -82,8 +102,9 @@
         <br>
         <textarea id="message" cols="35" rows="5" placeholder=" Введите сообщение..."></textarea>></textarea>
       </div>
-      <input type="submit" value=" Отправить">
-      <!-- <button type="submit">Отправить</button> -->
+
+      <button class="btn" type="submit">Отправить</button>
     </form>
+  </div>
   </body>
 </html>
